@@ -1,198 +1,154 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,500italic,400italic,300italic" rel="stylesheet" type="text/css" >
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <!-- SEO -->
+        <meta name="description" content="" />
+        <!-- SEO -->
+        <!-- dreamweaver rollover button scripts -->
+        <script type="text/javascript">
+        function MM_swapImgRestore() { //v3.0
+        var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+        }
+        function MM_preloadImages() { //v3.0
+        var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+        var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+        if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+        }
 
-<head>
+        function MM_findObj(n, d) { //v4.01
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+        if(!x && d.getElementById) x=d.getElementById(n); return x;
+        }
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        function MM_swapImage() { //v3.0
+        var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+        if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+        }
+        </script>
 
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
-
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,500italic,400italic,300italic" rel="stylesheet" type="text/css" >
-
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-
-<title>Title</title>
-
-<!-- SEO -->
-
-  <meta name="description" content="" />
-
-<!-- SEO -->
-
-<!-- dreamweaver rollover button scripts -->
-
-  <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-    </script>
-
-<!-- dreamweaver rollover button scripts -->
-    
-<!-- javascript image slider scripts -->
-
-  <!-- slider CSS -->
-	  	<link rel="stylesheet" href="css/orbit-1.2.3.css">
-	
-  <!-- slider javascript -->
-	   <script type="text/javascript" src="javascripts/jquery-1.5.1.min.js"></script>
-		  <script type="text/javascript" src="javascripts/jquery.orbit-1.2.3.min.js"></script>
-		
-<!-- plugin script -->
-	   <script type="text/javascript">
-          $(window).load(function() { $('#featured').orbit(); } );
-      </script>
-
-<!-- javascript image slider scripts -->
-</head>
-
-<body onload="MM_preloadImages('images/social/facebookhover.png','images/social/twitterhover.png','images/social/linkedinhover.png')">
-	
-<div id="container">
-    
-    <!--header begins here-->
-		
-      <div id="header">
-
-		<!--IWF logo-->    
-        <a href="index.html"><img class="logo" src="images/iwf-logo.png" title="IWF Construction & Glazing" alt="South Florida construction and glazing services" /></a> <!--IWF logo-->   	
-
-			  <div id="headernav"> 
-
-				  <ul>
-					 <li class="headernav1"><a href="iwf-services.html">SERVICES</a></li>
-					 <li class="headernav1"><a href="iwf-corporate-profile.html">CORPORATE PROFILE</a></li>
-					 <li class="headernav2"><a href="contact-iwf.html">CONTACT US</a></li>
-				  </ul>
-
-			  </div>
-
-		  </div> 
-		
-    <!-- header ends here -->
-       
-    
-    	
-    <!-- main begins here -->
-        
-        <div id="main4template">
-      	
-        	       <h1>This is an HTML template.</h1>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+        <!-- dreamweaver rollover button scripts -->
+        <!-- javascript image slider scripts -->
+        <!-- slider CSS -->
+        <link rel="stylesheet" href="css/orbit-1.2.3.css">
+        <!-- slider javascript -->
+        <script type="text/javascript" src="javascripts/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="javascripts/jquery.orbit-1.2.3.min.js"></script>
+        <!-- plugin script -->
+        <script type="text/javascript">
+        $(window).load(function() { $('#featured').orbit(); } );
+        </script>
+        <!-- javascript image slider scripts -->
+    </head>
+    <body onload="MM_preloadImages('images/social/facebookhover.png','images/social/twitterhover.png','images/social/linkedinhover.png')">
+        <div id="container">
+            <!--header begins here-->
+            <div id="header">
+                <!--IWF logo-->
+                <a href="index.html"><img class="logo" src="images/iwf-logo.png" title="IWF Construction & Glazing" alt="South Florida construction and glazing services" /></a> <!--IWF logo-->
+                <div id="headernav">
+                    <ul>
+                        <li class="headernav1">
+                            <a href="iwf-services.html">SERVICES</a>
+                        </li>
+                        <li class="headernav1">
+                            <a href="iwf-corporate-profile.html">CORPORATE PROFILE</a>
+                        </li>
+                        <li class="headernav2">
+                            <a href="contact-iwf.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- header ends here -->
+            <!-- main begins here -->
+            <div id="main4template">
+                <h1>This is an HTML template.</h1>
 
                 <h3>It's totes cool.</h3>
-        
-        </div>
-
-    <!-- main ends here --> 
-        
-    <!-- footer begins here -->
-        
-        <div id="footer">
-        
-       	  <table class="footer" width="350" border="1" bordercolor="green" cellspacing="10" cellpadding="10">
-  			
-            	<tbody>
-    			
-                <tr>
-    <!-- contains service links -->
-                    <td class="contact"> 
-                           <ul>
-                            
-                            	<li><h3>SERVICES</h3></li>
-                                <li><a href="iwf-services.html#commerical">Commercial</a></li>
-                                <li><a href="iwf-services.html#health">Health Care</a></li>
-                                <li><a href="iwf-services.html#academia">Academia</a></li>
-                                <li><a href="iwf-services.html#residential">Residential</a></li>
-                                <li><a href="iwf-services.html#glazing">Window Glazing</a></li>
-                            
-                      </ul>
-                  </td> 
-    <!-- service links-->
-                        
-                        <td class="contact">
-                           	<ul>
-               			  	  <!--contains phone #'s and emails-->
-                              <ul> 
-                                
-                       			<li><h3>CONTACT</h3></li>
-                                  	<li><p>Office:&nbsp;&nbsp;305.863.8810</p></li>
-                                    <li><p>Fax:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;305.863.8817</p></li>
-                                    <li><a href="mailto:inquiries@iwfconstruction.com?subject= I'd%20like%20some%20information">EMAIL IWF</a></li>
-                                
-                              </ul> 
-                              <!--contains phone #'s and emails--> 
-                                
-                              <!--contains the social buttons-->
-                              <div id="social"> 
+            </div>
+            <!-- main ends here -->
+            <!-- footer begins here -->
+            <div id="footer">
+                <table class="footer" width="350" border="1" bordercolor="green" cellspacing="10" cellpadding="10">
+                    <tbody>
+                        <tr>
+                            <!-- contains service links -->
+                            <td class="contact">
                                 <ul>
-                                
-                                	<li>
-								    <a href="http://www.facebook.com" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Facebook','','images/social/facebookhover.png',1)"><img src="images/social/facebook.png" alt="IWF's Facebook page" width="24" height="25" id="Facebook" /></a> </li>
-								
-                                	<li>
-								    <a href="http://www.twitter.com" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Twitter','','images/social/twitterhover.png',1)"><img src="images/social/twitter.png"  alt="IWF's Twitter page" width="24" height="25" id="Twitter" /></a> </li>
-									
                                     <li>
-								    <a href="http://www.linkedin.com" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Linkedin','','images/social/linkedinhover.png',1)"><img src="images/social/linkedin.png" alt="IWF's Linkedin page" width="24" height="25" id="Linkedin" /></a> </li>
-                               
+                                        <h3>SERVICES</h3>
+                                    </li>
+                                    <li>
+                                        <a href="iwf-services.html#commerical">Commercial</a>
+                                    </li>
+                                    <li>
+                                        <a href="iwf-services.html#health">Health Care</a>
+                                    </li>
+                                    <li>
+                                        <a href="iwf-services.html#academia">Academia</a>
+                                    </li>
+                                    <li>
+                                        <a href="iwf-services.html#residential">Residential</a>
+                                    </li>
+                                    <li>
+                                        <a href="iwf-services.html#glazing">Window Glazing</a>
+                                    </li>
                                 </ul>
-                            	</div>
-                                <!--contains the social buttons-->
-                            
-                            </ul>
-                  </td>
-   		    	  </tr>
-  				  
-            </tbody>
-
-		  </table>
-      	            
-         
+                            </td>
+                            <!-- service links-->
+                            <td class="contact">
+                                <ul>
+                                    <!--contains phone #'s and emails-->
+                                    <ul>
+                                        <li>
+                                            <h3>CONTACT</h3>
+                                        </li>
+                                        <li>
+                                            <p>Office:&nbsp;&nbsp;305.863.8810</p>
+                                        </li>
+                                        <li>
+                                            <p>Fax:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;305.863.8817</p>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:inquiries@iwfconstruction.com?subject= I'd%20like%20some%20information">EMAIL IWF</a>
+                                        </li>
+                                    </ul>
+                                    <!--contains phone #'s and emails-->
+                                    <!--contains the social buttons-->
+                                    <div id="social">
+                                        <ul>
+                                            <li>
+                                                <a href="http://www.facebook.com" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Facebook','','images/social/facebookhover.png',1)"><img src="images/social/facebook.png" alt="IWF's Facebook page" width="24" height="25" id="Facebook" /></a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.twitter.com" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Twitter','','images/social/twitterhover.png',1)"><img src="images/social/twitter.png"  alt="IWF's Twitter page" width="24" height="25" id="Twitter" /></a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.linkedin.com" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Linkedin','','images/social/linkedinhover.png',1)"><img src="images/social/linkedin.png" alt="IWF's Linkedin page" width="24" height="25" id="Linkedin" /></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--contains the social buttons-->
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--footer ends here-->
+            <!--this is the subfooter-->
+            <div id="subfoot">
+                <h6 class="subfoot">&copy; 2015 IWF Construction & Glazing. All Rights Reserved.</h6>
+            </div>
+            <!-- container ends here -->
         </div>
-        <!--footer ends here--> 
-        
-        <!--this is the subfooter-->
-        <div id="subfoot">
-
-			<h6 class="subfoot">&copy; 2015 IWF Construction & Glazing. All Rights Reserved.</h6>
-
-		</div>
-      
-  
-<!-- container ends here -->    
-  </div>
-
-
-
-</body>
+    </body>
 </html>
