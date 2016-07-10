@@ -27,15 +27,15 @@ img {
     background-color: rgb(246, 246, 246);
 }
 
-#header, #main, #footer, #subfoot {
+header, #main, #footer, #subfoot {
     margin: auto;
 }
 
-#header, #footer, #subheader, #subfoot {
+header, #footer, #subheader, #subfoot {
     width: 911px;
 }
 
-#header {
+header {
     height: 83px;
     padding: 10px 0px 10px 0px;
 }
@@ -82,20 +82,20 @@ img.logo {
     float: left;
 }
 
-#headernav {
+nav {
     margin: 60px 0px 0px 150px;
     float: left;
 }
 
-#headernav ul {
+nav ul {
     list-style-type: none;
 }
 
-#headernav ul li{
+nav ul li{
     display: inline;
 }
 
-#headernav ul li a {
+nav ul li a {
     font-family: Roboto;
     font-size: 120%;
     font-weight: 500;
@@ -104,7 +104,7 @@ img.logo {
     padding: 8px;
 }
 
-#headernav ul li a:hover {
+nav ul li a:hover {
     font-family: Roboto;
     font-weight: 400;
     color: rgb(246, 246, 246);
