@@ -3,18 +3,14 @@
 	padding: 0;
 	border: 0;
 }
-/* ------------------------------------------------------------ reset rule ends */
+
+@import "https://fonts.googleapis.com/css?family=Roboto:400,300,500,500";
 
 body {
 	font-family: "Roboto";
 	background-image: url("images/background.png");
 	background-color: black;
   	background-repeat: repeat-x;
-}
-
-@font-face {
-	font-family: "Roboto";
-	src: url(roboto/Roboto-Regular.ttf);
 }
 
 h1, h2, h3, h4, h5, h6, legend, label, p {
