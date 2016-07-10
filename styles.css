@@ -7,9 +7,9 @@
 
 body {
 	font-family: "Roboto";
-	background-image: url("images/background.png"); 
-	background-color: black;    
-  	background-repeat: repeat-x;     
+	background-image: url("images/background.png");
+	background-color: black;
+  	background-repeat: repeat-x;
 }
 
 @font-face {
@@ -102,7 +102,7 @@ img.logo {
 
 #headernav ul li{
 	display: inline;
-} 
+}
 
 #headernav ul li a {
 	font-family: Roboto;
@@ -124,7 +124,7 @@ img.logo {
 }
 
 li.headernav1, li.headernav2 {
-	padding-right: 10px;	
+	padding-right: 10px;
 	margin-left: 10px;
 }
 
@@ -181,7 +181,7 @@ li.headernav1 {
 
 li.subnav_serv, li.subnav_abou {
 	border-right: 2px solid rgb(246, 246, 246);
-	padding-right: 10px;	
+	padding-right: 10px;
 	margin-left: 5px;
 }
 
@@ -189,7 +189,7 @@ li.subnav_serv, li.subnav_abou {
 
 table.footer {
 	margin: auto;
-	padding-top: 15px;	
+	padding-top: 15px;
 }
 
 table.footer h3, table.footer p {
@@ -245,12 +245,12 @@ td.contact {
 	/* background-color: blue; */
 	padding-bottom: 75px;
 	margin-top: 30px;
-	margin-bottom: 80px;	
+	margin-bottom: 80px;
 }
 
 #services {
 	border-bottom: 2px solid rgb(43, 43, 43);
-	box-shadow: 0px 2px rgba(161,161,161,1.00);	
+	box-shadow: 0px 2px rgba(161,161,161,1.00);
 }
 
 #servleft, #servright {
@@ -441,7 +441,7 @@ legend {
 label {
 	color: rgb(246, 246, 246);
 	font-weight: 300;
-	margin-bottom: 15px; 
+	margin-bottom: 15px;
 }
 
 input[type="text"], select {
@@ -516,9 +516,3 @@ input[type="reset"]:hover, input[type="submit"]:hover {
 	background-color: rgb(246, 246, 246);
 	color: rgb(43, 43, 43);
 }
-
-
-
-	
-
-	
