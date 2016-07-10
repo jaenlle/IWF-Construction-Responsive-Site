@@ -1,9 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
+@import "css/normalize.css";
 @import "https://fonts.googleapis.com/css?family=Roboto:400,300,500,500";
 
 body {
