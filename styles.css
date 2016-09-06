@@ -1,3 +1,7 @@
+@-ms-viewport{
+    [viewport property];
+}
+
 body {
     font-family: "Roboto";
     background-image: url("images/background.png");
