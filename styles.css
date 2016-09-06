@@ -1,6 +1,3 @@
-@import "css/normalize.css";
-@import "https://fonts.googleapis.com/css?family=Roboto:400,300,500,500";
-
 body {
     font-family: "Roboto";
     background-image: url("images/background.png");
