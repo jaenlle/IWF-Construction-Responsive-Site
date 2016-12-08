@@ -9,7 +9,15 @@ body {
     background-repeat: repeat-x;
 }
 
-h1, h2, h3, h4, h5, h6, legend, label, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend,
+label,
+p {
     font-weight: 400;
     color: grey;
 }
@@ -23,16 +31,22 @@ img {
 }
 
 #container {
-    width: 911px;
+    max-width: 911px;
     margin: auto;
     background-color: rgb(246, 246, 246);
 }
 
-header, #main, #footer, #subfoot {
+header,
+main,
+footer,
+#subfoot {
     margin: auto;
 }
 
-header, #footer, #subheader, #subfoot {
+header,
+footer,
+#subheader,
+#subfoot {
     width: 911px;
 }
 
@@ -41,7 +55,8 @@ header {
     padding: 10px 0px 10px 0px;
 }
 
-#main, #main4template {
+#main,
+#main4template {
     margin: auto;
     width: 811px;
     /* background-color: red; */
@@ -54,11 +69,12 @@ header {
     height: 500px;
 }
 
-#footer, #subfoot {
+footer,
+#subfoot {
     background-color: rgb(43, 43, 43);
 }
 
-#footer {
+footer {
     clear: all;
     height: 175px;
     background-color: rgb(43,43, 43);
@@ -115,7 +131,8 @@ nav ul li a:hover {
     padding: 8px;
 }
 
-li.headernav1, li.headernav2 {
+li.headernav1,
+li.headernav2 {
     padding-right: 10px;
     margin-left: 10px;
 }
@@ -126,11 +143,13 @@ li.headernav1 {
 
 /* ------------------------------------------------------------ subheader navigation*/
 
-#subheader, #subnav_serv {
+#subheader,
+subnav_serv {
     background-color: rgb(43, 43, 43);
 }
 
-#subnav_serv, #subnav_abou {
+#subnav_serv,
+#subnav_abou {
     margin: auto;
     clear:all;
     /* height: 36.5px; */
@@ -145,25 +164,29 @@ li.headernav1 {
     width: 450px;
 }
 
-#subnav_serv ul, #subnav_abou ul {
+#subnav_serv ul,
+#subnav_abou ul {
     list-style-type: none;
     color: rgb(246, 246, 246);
     /*padding: 10px 0px;*/
 }
 
-#subnav_serv ul li, #subnav_abou ul li {
+#subnav_serv ul li,
+#subnav_abou ul li {
     display: inline;
     /* padding: 10px 6px; */
 }
 
-#subnav_serv ul li a, #subnav_abou ul li a {
+#subnav_serv ul li a,
+#subnav_abou ul li a {
     font-family: Roboto;
     text-decoration: none;
     color: rgb(246, 246, 246);
     padding: 10px 10px;
 }
 
-#subnav_serv ul li a:hover, #subnav_abou ul li a:hover {
+#subnav_serv ul li a:hover,
+#subnav_abou ul li a:hover {
     font-family: Roboto;
     color: rgb(43, 43, 43);
     text-decoration: none;
@@ -171,7 +194,8 @@ li.headernav1 {
     padding: 10px 10px;
 }
 
-li.subnav_serv, li.subnav_abou {
+li.subnav_serv,
+li.subnav_abou {
     border-right: 2px solid rgb(246, 246, 246);
     padding-right: 10px;
     margin-left: 5px;
@@ -184,7 +208,8 @@ table.footer {
     padding-top: 15px;
 }
 
-table.footer h3, table.footer p {
+table.footer h3,
+table.footer p {
     color: rgb(246, 246, 246);
 }
 
@@ -192,7 +217,8 @@ table.footer h3 {
     padding-bottom: 2px;
 }
 
-table.footer p, table.footer ul a {
+table.footer p,
+table.footer ul a {
     font-weight: 300;
     /* margin-left: 10px; */
 }
@@ -228,7 +254,8 @@ td.contact {
 
 /* ------------------------------------------------------------ services content */
 
-#services, #services1 {
+#services,
+#services1 {
     margin: auto;
     width: 761px;
     /* background-color: blue; */
@@ -242,18 +269,19 @@ td.contact {
     box-shadow: 0px 2px rgba(161,161,161,1.00);
 }
 
-#servleft, #servright {
+.servleft,
+.servright {
     width: 380.5px;
     padding: 10px;
 }
 
-#servright {
+.servright {
     width: 360.5px;
     height: 380px;
     float: right;
 }
 
-#servleft {
+.servleft {
     width: 380.5px;
 }
 
@@ -282,7 +310,8 @@ img.servleft {
     float: left;
 }
 
-#services a, #services1 a {
+#services a,
+#services1 a {
     /* background-color: rgb(43, 43, 43); */
     color: grey;
     /* border-radius: 10px; */
@@ -291,7 +320,8 @@ img.servleft {
     text-decoration: none;
 }
 
-#services a:hover, #services1 a:hover {
+#services a:hover,
+#services1 a:hover {
     padding: 6px 8px ;
     /* border: 2px solid rgb(43, 43, 43); */
     color: rgb(43, 43, 43);
@@ -300,7 +330,8 @@ img.servleft {
 
 /* ------------------------------------------------------------ corporate profile */
 
-#about, #about1 {
+#about,
+#about1 {
     margin: auto;
     width: 761px;
     /* background-color: blue; */
@@ -318,7 +349,8 @@ img.servleft {
     padding: 6px 0px 0px 10px;
 }
 
-#keyright, #saferight {
+#keyright,
+#saferight {
     float: right;
 }
 
@@ -345,7 +377,8 @@ h4.about {
     padding-bottom: 10px;
 }
 
-th.about, td.about {
+th.about,
+td.about {
     font-weight: 400;
     color: grey;
     text-align: left;
@@ -361,7 +394,7 @@ table.about {
 
 /* ------------------------------------------------------------ form section */
 
-#formbox {
+form {
     margin: auto;
     width: 650px;
     background-color: grey;
@@ -373,12 +406,15 @@ h1.formbox {
     margin-bottom: 15px;
 }
 
-h2.formbox, h4.formbox, p.formbox {
+h2.formbox,
+h4.formbox,
+p.formbox {
     color: rgb(246, 246, 246);
     padding-bottom: 10px;
 }
 
-h2.formbox, h4.formbox {
+h2.formbox,
+h4.formbox {
     padding-top: 10px;
 }
 
@@ -390,11 +426,14 @@ h2.formbox, h4.formbox {
     margin-bottom: 35px;
 }
 
-h4.contactinfo, p.contactinfo, #contactinfo a {
+h4.contactinfo,
+p.contactinfo,
+#contactinfo a {
     color: rgb(246, 246, 246);
 }
 
-h4.contactinfo, #contactinfo a {
+h4.contactinfo,
+#contactinfo a {
     color: rgb(246, 246, 246);
     padding: 0px 0px 5px 0px;
     padding-top: 10px;
@@ -456,7 +495,8 @@ input[type="radio"] {
     float: right;
 }
 
-.contact1, .contact2 {
+.contact1,
+.contact2 {
     margin-bottom: 30px;
 }
 
@@ -476,7 +516,8 @@ textarea {
 
 /* ------------------------------------------------------------ form buttons */
 
-input[type="reset"], input[type="submit"] {
+input[type="reset"],
+input[type="submit"] {
     margin-top: 20px;
     border: 1px solid rgb(246, 246, 246);
     border-radius: 2px;
@@ -490,7 +531,8 @@ input[type="reset"] {
     margin-right: 10px;
 }
 
-input[type="reset"]:hover, input[type="submit"]:hover {
+input[type="reset"]:hover,
+input[type="submit"]:hover {
     background-color: rgb(246, 246, 246);
     color: rgb(43, 43, 43);
 }
