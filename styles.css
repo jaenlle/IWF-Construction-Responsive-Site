@@ -80,6 +80,7 @@ footer,
 header {
     height: 83px;
     padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
 }
 
 #main,
@@ -96,27 +97,6 @@ header {
     height: 500px;
 }
 
-footer,
-#subfoot {
-    background-color: rgb(43, 43, 43);
-}
-
-footer {
-    clear: all;
-    height: 175px;
-    background-color: rgb(43,43, 43);
-}
-
-#subfoot {
-    padding-top: 30px;
-}
-
-h6.subfoot {
-    color: rgb(246, 246, 246);
-    padding: 5px 0px 10px 15px;
-    margin: 0px;
-}
-
 /*--------------------------------------------------------------
 >>> Main Navigation
 ----------------------------------------------------------------*/
@@ -129,7 +109,7 @@ img.logo {
 }
 
 nav {
-    margin: 60px 0px 0px 150px;
+    margin: 40px 0px 0px 220px;
     float: left;
 }
 
@@ -177,10 +157,10 @@ li.headernav1 {
 img.responsive-logo {
     float: left;
     max-width: 120px;
-    margin-bottom: 10px;
+    margin: 5px 0 10px 10px;
 }
 
-@media screen and (max-width: 799px) {
+@media all and (max-width: 599px) {
     #menu,
     img.logo {
         display:none;
@@ -193,7 +173,7 @@ img.responsive-logo {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media all and (min-width: 600px) {
     .slicknav_menu,
     .responsive-logo {
         display:none;
@@ -266,55 +246,64 @@ li.subnav_abou {
 >>> Footer Navigation
 ----------------------------------------------------------------*/
 
-table.footer {
-    margin: auto;
-    padding-top: 15px;
+footer,
+#subfoot {
+    background-color: rgb(43, 43, 43);
 }
 
-table.footer h3,
-table.footer p {
-    color: rgb(246, 246, 246);
+footer {
+    clear: all;
+    padding: 40px 0 10px;
+    text-align: center;
 }
 
-table.footer h3 {
-    padding-bottom: 2px;
+#subfoot {
+    padding-top: 30px;
 }
 
-table.footer p,
-table.footer ul a {
-    font-weight: 300;
-    /* margin-left: 10px; */
+footer ul {
+    list-style: none;
+    margin-bottom: 40px;
+    padding-left: 0px;
+    letter-spacing: 2px;
 }
 
-table.footer ul li {
-    list-style-type: none;
-    color: rgb(246, 246, 246);
+@media all and (min-width: 451px) {
+    footer ul {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: justify;
+    }
 }
 
-table.footer ul a {
-    font-family: Roboto;
-    color: rgb(246, 246, 246);
+footer li,
+footer ul a {
     text-decoration: none;
+    color: rgb(246, 246, 246);
 }
 
-table.footer ul a:hover {
-    font-family: Roboto;
+footer a:hover {
     color: grey;
+    border-bottom: 1px solid grey;
 }
 
-#social {
-    padding-top: 14px;
+footer li {
+    margin-bottom: 15px;
 }
 
-#social li{
-    display: inline;
-    padding-right: 25px;
+#subfoot {
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
 }
 
-td.contact {
-    width: 150px;
+#subfoot p {
+    font-size: 80%;
+    color: rgb(246, 246, 246);
+    letter-spacing: 1px;
 }
-
 /*--------------------------------------------------------------
 >>> Services Page
 ----------------------------------------------------------------*/
