@@ -45,9 +45,10 @@ h5,
 h6,
 legend,
 label,
-p {
+p,
+a {
     font-weight: 400;
-    color: grey;
+    color: #888888;
 }
 
 h1 {
@@ -80,7 +81,7 @@ footer,
 
 header {
     height: 83px;
-    padding: 10px 0px 10px 0px;
+    /*padding: 10px 0px 10px 0px;*/
     margin-bottom: 20px;
 }
 
@@ -109,56 +110,57 @@ img.logo {
     float: left;
 }
 
-nav {
-
-}
-
-@media all and (min-width: 601px) {
-    nav {
-
-    }
-
-    nav ul li{
-
-    }
-}
-
-@media all and (min-width: 922px) {
-    nav {
-        margin: 40px 0px 0px 220px;
-        float: left;
-    }
-
-    nav ul li{
-        display: inline;
-    }
-}
-
 nav ul {
     list-style-type: none;
-}
-
-nav ul li{
-
 }
 
 nav ul li a {
     font-family: Roboto;
     font-size: 120%;
     font-weight: 500;
-    color: grey;
     text-decoration: none;
-    padding: 8px;
+    /*padding: 8px;*/
 }
 
 nav ul li a:hover {
     font-family: Roboto;
-    font-weight: 400;
-    color: rgb(246, 246, 246);
-    background-color: rgb(43, 43, 43);
-    text-decoration: none;
-    text-shadow: none;
-    padding: 8px;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+    /*border-bottom: 2px solid #888888;*/
+    /*padding: 8px;*/
+}
+
+@media all and (min-width: 601px) {
+    img.logo {
+        float: left;
+        margin-left: 30px;
+    }
+
+    nav {
+        margin-right: 30px;
+    }
+
+    nav ul li{
+        text-align: right;
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media all and (min-width: 922px) {
+    img.logo {
+        margin-top: 20px;
+    }
+
+    nav {
+        margin: 50px 0px 0px 120px;
+        float: left;
+    }
+
+    nav ul li{
+        display: inline;
+        margin: 0 20px;
+    }
 }
 
 /*--------------------------------------------------------------
