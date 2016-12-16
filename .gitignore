@@ -1,2 +1,4 @@
 images/*
 !images/iwf-logo.png
+
+*.psd
