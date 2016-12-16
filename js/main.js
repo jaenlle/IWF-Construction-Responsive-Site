@@ -14,7 +14,7 @@ $(document).ready(function(){
             prependTo: '#container',
         });
 
-        $('.slicknav_menu').prepend('<img class="responsive-logo" src="images/iwf-logo.png" title="IWF Construction & Glazing" alt="South Florida construction and glazing services" />');
+        $('.slicknav_menu').prepend('<a href="http://www.iwfconstruction.com"><img class="responsive-logo" src="images/iwf-logo.png" title="IWF Construction & Glazing" alt="South Florida construction and glazing services" /></a>');
     });
 
 
