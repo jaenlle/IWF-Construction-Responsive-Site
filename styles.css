@@ -110,8 +110,28 @@ img.logo {
 }
 
 nav {
-    margin: 40px 0px 0px 220px;
-    float: left;
+
+}
+
+@media all and (min-width: 601px) {
+    nav {
+
+    }
+
+    nav ul li{
+
+    }
+}
+
+@media all and (min-width: 922px) {
+    nav {
+        margin: 40px 0px 0px 220px;
+        float: left;
+    }
+
+    nav ul li{
+        display: inline;
+    }
 }
 
 nav ul {
@@ -119,7 +139,7 @@ nav ul {
 }
 
 nav ul li{
-    display: inline;
+
 }
 
 nav ul li a {
@@ -139,16 +159,6 @@ nav ul li a:hover {
     text-decoration: none;
     text-shadow: none;
     padding: 8px;
-}
-
-li.headernav1,
-li.headernav2 {
-    padding-right: 10px;
-    margin-left: 10px;
-}
-
-li.headernav1 {
-    border-right: 2px solid rgb(43, 43, 43);
 }
 
 /*--------------------------------------------------------------
@@ -182,7 +192,7 @@ img.responsive-logo {
 }
 
 /*--------------------------------------------------------------
->>> Sub-Navigation
+>>> Sub-Navigation for Services and Corporate Pages
 ----------------------------------------------------------------*/
 
 #subheader,
@@ -248,6 +258,7 @@ li.subnav_abou {
 ----------------------------------------------------------------*/
 
 footer,
+#social,
 #subfoot {
     background-color: rgb(43, 43, 43);
 }
@@ -294,14 +305,26 @@ footer li {
     margin-bottom: 15px;
 }
 
+#social li {
+    display: inline;
+    margin: 0 25px;
+}
+
+#social a:hover {
+    border: none;
+}
+
+#social img {
+    width: 40px;
+}
+
 #subfoot {
-    clear: both;
     text-align: center;
     padding: 10px 0;
 }
 
 #subfoot p {
-    font-size: 80%;
+    font-size: 70%;
     color: rgb(246, 246, 246);
     letter-spacing: 1px;
 }
