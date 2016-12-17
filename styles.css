@@ -31,7 +31,7 @@ Email: julioaenlle@gmail.com
 
 
 body {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     /*background-image: url("images/background.png");*/
     background-color: rgb(246, 246, 246);
     /*background-repeat: repeat-x;*/
@@ -62,7 +62,7 @@ img {
 #container,
 header,
 footer,
-#subheader,
+#subnav,
 #subfoot {
     max-width: 911px;
 }
@@ -80,9 +80,8 @@ footer,
 }
 
 header {
-    height: 83px;
-    /*padding: 10px 0px 10px 0px;*/
-    margin-bottom: 20px;
+    height: 120px;
+    padding: 10px 0px 10px 0px;
 }
 
 #main,
@@ -194,68 +193,6 @@ img.responsive-logo {
 }
 
 /*--------------------------------------------------------------
->>> Sub-Navigation for Services and Corporate Pages
-----------------------------------------------------------------*/
-
-#subheader,
-#subnav_serv {
-    background-color: rgb(43, 43, 43);
-}
-
-#subnav_serv,
-#subnav_abou {
-    margin: auto;
-    clear:all;
-    /* height: 36.5px; */
-    padding: 10px 0px 10px 0px;
-}
-
-#subnav_serv {
-    width: 783px;
-}
-
-#subnav_abou {
-    width: 450px;
-}
-
-#subnav_serv ul,
-#subnav_abou ul {
-    list-style-type: none;
-    color: rgb(246, 246, 246);
-    /*padding: 10px 0px;*/
-}
-
-#subnav_serv ul li,
-#subnav_abou ul li {
-    display: inline;
-    /* padding: 10px 6px; */
-}
-
-#subnav_serv ul li a,
-#subnav_abou ul li a {
-    font-family: Roboto;
-    text-decoration: none;
-    color: rgb(246, 246, 246);
-    padding: 10px 10px;
-}
-
-#subnav_serv ul li a:hover,
-#subnav_abou ul li a:hover {
-    font-family: Roboto;
-    color: rgb(43, 43, 43);
-    text-decoration: none;
-    background-color: rgb(246, 246, 246);
-    padding: 10px 10px;
-}
-
-li.subnav_serv,
-li.subnav_abou {
-    border-right: 2px solid rgb(246, 246, 246);
-    padding-right: 10px;
-    margin-left: 5px;
-}
-
-/*--------------------------------------------------------------
 >>> Footer Navigation
 ----------------------------------------------------------------*/
 
@@ -340,6 +277,21 @@ footer ul a {
 }
 
 /*--------------------------------------------------------------
+>>> Sub-Navigation for Services and Corporate Pages
+----------------------------------------------------------------*/
+
+#subnav {
+    background-color: rgb(43, 43, 43);
+}
+
+#subnav ul {
+    list-style: none;
+    margin: 0;
+}
+
+
+
+/*--------------------------------------------------------------
 >>> Homepage
 ----------------------------------------------------------------*/
 
@@ -359,6 +311,10 @@ footer ul a {
 /*--------------------------------------------------------------
 >>> Services Page
 ----------------------------------------------------------------*/
+
+.hero {
+    width: 100%;
+}
 
 #services,
 #services1 {
