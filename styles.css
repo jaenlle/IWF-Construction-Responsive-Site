@@ -19,6 +19,7 @@ Email: julioaenlle@gmail.com
 /* Sub-Navigation */
 /* Footer Navigation */
 /* Homepage */
+/* Hero Image */
 /* Services Page */
 /* Corporate Profile Page */
 /* Contact Form Page */
@@ -309,12 +310,16 @@ footer ul a {
 }
 
 /*--------------------------------------------------------------
->>> Services Page
+>>> Hero Image
 ----------------------------------------------------------------*/
 
 .hero {
     width: 100%;
 }
+
+/*--------------------------------------------------------------
+>>> Services Page
+----------------------------------------------------------------*/
 
 #services,
 #services1 {
