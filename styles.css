@@ -223,6 +223,10 @@ footer ul a {
     color: rgb(246, 246, 246);
 }
 
+footer ul a:hover {
+    color: #8a8a8a;
+}
+
 #social {
     margin-bottom: 50px;
 }
@@ -234,6 +238,10 @@ footer ul a {
 
 #social img {
     width: 40px;
+}
+
+#footer-logos ul {
+    margin-bottom: 30px;
 }
 
 #footer-logos img {
@@ -264,6 +272,11 @@ footer ul a {
 
     #social ul {
         margin-bottom: 0;
+    }
+
+    #social li {
+        display: block;
+        margin: 10px 25px;
     }
 
     #footer-logos li {
