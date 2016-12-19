@@ -63,9 +63,7 @@ img {
 
 #container,
 header,
-footer,
-#subnav,
-#subfoot {
+#subnav {
     max-width: 911px;
 }
 
@@ -84,6 +82,10 @@ footer,
 header {
     height: 120px;
     padding: 10px 0px 10px 0px;
+}
+
+footer {
+    height: 100%;
 }
 
 main {
@@ -245,7 +247,7 @@ footer ul a {
     padding: 10px 0;
 }
 
-#subfoot p {
+#subfoot {
     font-size: 70%;
     color: rgb(246, 246, 246);
     letter-spacing: 1px;
