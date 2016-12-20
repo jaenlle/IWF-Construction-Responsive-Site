@@ -342,7 +342,7 @@ footer ul a:hover {
 .services {
     margin: 60px 0;
     padding-bottom: 30px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #888888;
 }
 
 .services:last-of-type {
@@ -386,7 +386,65 @@ footer ul a:hover {
 >>> Corporate Profile Page
 ----------------------------------------------------------------*/
 
+.profile {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #888888;
+}
 
+.profile:last-of-type {
+    border-bottom: none;
+}
+
+.profile h2 {
+    margin: 40px 0;
+}
+
+#ernie {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#name {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#name h3,
+#name h4 {
+    margin: 5px 0;
+}
+
+#personnel p {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media all and (min-width: 401px) {
+    #ernie {
+        max-width: 150px;
+        float: left;
+        margin: none;
+        display: inline;
+    }
+
+    #name {
+        text-align: left;
+        margin: 0 20px;
+        float: left;
+    }
+
+    #name h3 {
+        margin-top: 0;
+    }
+
+    #personnel p {
+        padding-top: 65px;
+        margin-left: 170px;
+    }
+
+}
 
 /*--------------------------------------------------------------
 >>> Contact Form Page
