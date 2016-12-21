@@ -3,9 +3,9 @@
 Site created for IWF Construction & Glazing, a construction contractor
 formerly operating in the South Florida Area.
 
-Designed & Coded by Julio Aenlle
+Designed & Coded by: Julio Aenlle
 Website: www.julioaenlle.com
-Email: julioaenlle@gmail.com
+Email: julio@julioaenlle.com
 
 **/
 
@@ -396,8 +396,19 @@ footer ul a:hover {
 }
 
 .profile h2 {
-    margin: 40px 0;
+    margin: 40px 0 30px 0;
 }
+
+.profile p {
+    text-align: justify;
+}
+
+.breaker {
+    content: '';
+    clear: both;
+}
+
+/* ---- Key Personnel ---- */
 
 #ernie {
     width: 50%;
@@ -416,7 +427,6 @@ footer ul a:hover {
 }
 
 #personnel p {
-    text-align: justify;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -443,7 +453,75 @@ footer ul a:hover {
         padding-top: 65px;
         margin-left: 170px;
     }
+}
 
+/* ---- Corporate Profile Mobile ---- */
+
+#mobile p {
+    margin-bottom: 20px;
+}
+
+.headers {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* ---- Corporate Profile Desktop ---- */
+
+table {
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    empty-cells: hide;
+    border: none;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+}
+
+td {
+    text-align: justify;
+}
+
+@media all and (max-width: 574px) {
+    #table {
+        display: none;
+    }
+}
+
+@media all and (min-width: 575px) {
+    #mobile {
+        display: none;
+    }
+}
+
+/* ---- Safety ---- */
+
+.osha {
+    text-align: justify;
+}
+
+img.osha {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (min-width: 750px) {
+    .osha {
+        float: left;
+        max-width: 500px;
+        margin-top: 0;
+        margin-right: 50px;
+    } 
+    
+    img.osha {
+        margin-top: 0;
+    }
 }
 
 /*--------------------------------------------------------------
